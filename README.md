@@ -26,6 +26,9 @@
 <br>
 
 ## 🚀 Technologies.
+
+Technologies used to built this project.
+
 <ul>
   <a href="https://www.w3schools.com/html/" target="_blank">
     <li>HTML</li>
