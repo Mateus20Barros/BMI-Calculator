@@ -27,16 +27,16 @@
 
 ## 🚀 Technologies.
 <ul>
-  <a href="(https://www.w3schools.com/html/">
+  <a href="https://www.w3schools.com/html/" target="_blank">
     <li>HTML</li>
   </a>
-  <a href="(https://www.w3schools.com/html/">
+  <a href="https://www.w3schools.com/html/" target="_blank">
     <li>CSS</li>
   </a>
-  <a href="(https://www.w3schools.com/html/">
+  <a href="https://www.w3schools.com/html/" target="_blank">
     <li>Javascript</li>
   </a>
-  <a href="(https://www.w3schools.com/html/">
+  <a href="https://www.w3schools.com/html/" target="_blank">
     <li>Font-Awesome</li>
   </a>
 </ul>
