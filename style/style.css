@@ -24,8 +24,8 @@ body {
 
 .keep-calc h1 {
     width: 70%;
-    color: #343a40;
     margin: 3% auto;
+    color: #343a40;
 }
 
 .calculater {
@@ -65,7 +65,6 @@ input {
 
 .buttons button {
     width: 40%;
-    border: 2px solid #343a40;
     padding: 10px 0;
     cursor: pointer;
     font-size: 1rem;
@@ -73,6 +72,7 @@ input {
     font-weight: bold;
     border-radius: 4px;
     background-color: #fff;
+    border: 2px solid #343a40;
 }
 
 .buttons button:hover {
@@ -142,20 +142,6 @@ input {
     border-radius: 9px;
     background-color: #b7ffd8;
     border: 2px solid #157f1f;
-}
-
-.paragraph {
-    width: 100%;
-    display: none;
-    padding: 9px 0;
-    margin-top: .5%;
-    border: 3px solid;
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: center;
-    border-radius: 15px;
-    font-weight: bolder;
-    animation: apper-result 1.5s ease;
 }
 
 .dangerusWeight {
