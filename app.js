@@ -42,7 +42,7 @@ const calcBMI = () => {
         Message("dangerusWeight", `"${BMI_Result}" - You are obese II`);
     }
     else {
-        Message("please", 'Please! Enter your Height and Weight');
+        Message("empty-fields", 'Please! Enter your Height and Weight');
     }
 }
 
