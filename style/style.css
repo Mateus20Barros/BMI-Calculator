@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, .5, 0, .3);
+}
+
+.calc-container {
+    width: 70%;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 2% auto 0 auto;
+    border: 3px solid #343a40;
+    background-color: #e9ecef;
+}
+
+.keep-calc {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.keep-calc h1 {
+    width: 70%;
+    color: #343a40;
+    margin: 3% auto;
+}
+
+.calculater {
+    width: 70%;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    color: #343a40;
+    font-size: 1.2rem;
+    margin-bottom: .5%;
+    font-weight: bolder;
+}
+
+input[class="height"] {
+    margin-bottom: 3%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 13px;
+    outline: none;
+    display: flex;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 2px 2px #343a40;
+}
+
+.buttons {
+    display: flex;
+    padding: 15px 0;
+    align-content: center;
+    justify-content:space-between;
+}
+
+.buttons button {
+    width: 40%;
+    border: 2px solid #343a40;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #343a40;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.buttons button:hover {
+    box-shadow: 0px 1px 3px .9px #343a40;
+}
+
+
+.about {
+    width: 70%;
+    padding: 3% 0;
+    margin: 0 auto;
+}
+
+.about h1 {
+    margin-top: -1%;
+    color: #343a40;
+    margin-bottom: 2%;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.rules {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about h3 {
+    width: 100%;
+    margin: 2% auto;
+    color: #343a40;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.rules .V_U_W {
+    width: 32.5%;
+    padding: 5px;
+    color: #d90429;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 9px;
+    text-align: center;
+    background-color: #f7cad0;
+    border: 2px solid #d90429;
+}
+
+.rules .U_W {
+    width: 32.5%;
+    padding: 5px;
+    color: #ff8200;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    border-radius: 9px;
+    background-color: #ffeaae;
+    border: 2px solid #ff8200;
+}
+
+.rules .I_W {
+    width: 32.5%;
+    padding: 5px;
+    color: #157f1f;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    border-radius: 9px;
+    background-color: #b7ffd8;
+    border: 2px solid #157f1f;
+}
+
+.paragraph {
+    width: 100%;
+    display: none;
+    padding: 9px 0;
+    margin-top: .5%;
+    border: 3px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    animation: apper-result 1.5s ease;
+}
+
+.dangerusWeight {
+    color: #d90429;
+    background-color: #f7cad0;
+    width: 100%;
+    padding: 9px 0;
+    margin-top: .5%;
+    border: 3px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    animation: apper-result 1.5s ease;
+}
+
+.warningWeight {
+    color: #ff8200;
+    background-color: #ffeaae;
+    width: 100%;
+    padding: 9px 0;
+    margin-top: .5%;
+    border: 3px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    animation: apper-result 1.5s ease;
+}
+
+.idealWeight {
+    color: #157f1f;
+    background-color: #b7ffd8;
+    width: 100%;
+    padding: 9px 0;
+    margin-top: .5%;
+    border: 3px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    animation: apper-result 1.5s ease;
+}
+
+.please {
+    color: #03045e;
+    background-color: #ade8f4;
+    width: 100%;
+    padding: 9px 0;
+    margin-top: .5%;
+    border: 3px solid;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    animation: apper-result 1.5s ease;
+}
+
+@keyframes apper-result {
+    0% {
+        opacity: 0;
+        transform: scale(.0);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
