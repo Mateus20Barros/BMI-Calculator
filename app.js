@@ -2,7 +2,7 @@ const height = document.querySelector('.height');
 const weight = document.querySelector('.weight');
 const btnCalc = document.querySelector('.calc');
 const btnClear = document.querySelector('.clear');
-const local = document.querySelector('.show');
+const local = document.querySelector('.get-result');
 
 const paragraph = document.createElement('p');
 
