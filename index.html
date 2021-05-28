@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <!-- Font-Awesome css link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Body Mass Index Calculator</title>
+    </head>
+    <body>
+        <div class="calc-container">
+            <div class="keep-calc">
+                <h1>Calculate Your Body Mass Index</h1>
+                <div class="calculater">
+                    <label>Enter your Height</label>
+                    <input type="text" class="height" placeholder="Ex: 1.70">
+                    <label>Enter your Weight</label>
+                    <input type="text" class="weight" placeholder="Ex: 65">
+                    <div class="buttons">
+                        <button class="calc"><i class="fas fa-calculator"></i> Calculate</button>
+                        <button class="clear"><i class="fas fa-trash-alt"></i> Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about">
+            <h1>Explanation of results</h1>
+            <div class="rules">
+                <div class="V_U_W">This color means Bad BMI</div>
+                <div class="U_W">This color means Under or Over BMI</div>
+                <div class="I_W">This color means Ideal BMI</div>
+            </div>
+            <h3>Get your BMI result below</h3>
+            <div class="show"></div>
+        </section>
+        
+        <script src="app.js"></script>
+        <!-- Font-Awesome javascript link -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+            integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        </script>
+    </body>
+    </html>
