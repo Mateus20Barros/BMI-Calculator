@@ -41,11 +41,6 @@
   </a>
 </ul>
 
-- [HTML](https://www.w3schools.com/html/)
-- [CSS](https://css-tricks.com/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Font-Awesome](https://fontawesome.com/)
-
 <br>
 
 > **NOTE** - *I used "Font-Awesome" for the Calculater and Delete button icons.*
