@@ -26,6 +26,21 @@
 <br>
 
 ## 🚀 Technologies.
+<ul>
+  <a href="(https://www.w3schools.com/html/">
+    <li>HTML</li>
+  </a>
+  <a href="(https://www.w3schools.com/html/">
+    <li>CSS</li>
+  </a>
+  <a href="(https://www.w3schools.com/html/">
+    <li>Javascript</li>
+  </a>
+  <a href="(https://www.w3schools.com/html/">
+    <li>Font-Awesome</li>
+  </a>
+</ul>
+
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://css-tricks.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
