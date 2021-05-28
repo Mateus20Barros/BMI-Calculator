@@ -1,4 +1,4 @@
-<h1 align="center">:abacus: BMI Calculator</h1> 
+<h1 align="center">:abacus: :stethoscope: BMI Calculator</h1> 
 
 <br>
 
