@@ -34,7 +34,7 @@ Technologies used to build this project.
   <a href="https://css-tricks.com/" target="_blank">
     <li>CSS</li>
   </a>
-  <a href="https://www.w3schools.com/html/" target="_blank">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <li>Javascript</li>
   </a>
   <a href="https://www.w3schools.com/html/" target="_blank">
