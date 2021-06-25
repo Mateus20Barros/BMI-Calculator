@@ -31,7 +31,7 @@ Technologies used to build this project.
   <a href="https://www.w3schools.com/html/" target="_blank">
     <li>HTML</li>
   </a>
-  <a href="https://www.w3schools.com/html/" target="_blank">
+  <a href="https://css-tricks.com/" target="_blank">
     <li>CSS</li>
   </a>
   <a href="https://www.w3schools.com/html/" target="_blank">
