@@ -19,9 +19,7 @@
 
 <br>
 
-<div align="center">
   <img src="https://github.com/Mateus20Barros/bmi-calculator/blob/main/src/assets/project.gif" width="80%">
-</div>
 
 <br>
 
