@@ -10,7 +10,7 @@ const Message = (type, comment) => {
     paragraph.setAttribute('class', type)
     paragraph.textContent = comment
     local.append(paragraph)
-}
+} 
 
 const calcBMI = () => {
 
